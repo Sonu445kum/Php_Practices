@@ -1,0 +1,17 @@
+PHP me superglobals predefined variables hote hain jo har scope me available hote hain.
+ Matlab, function ke andar ya bahar, inko access kiya ja sakta hai bina global keyword ke use kiye.
+
+Ye variables global information store karte hain, jaise ki request data, server info, session info, cookies, etc.
+
+PHP me 9 main superglobals hote hain:
+
+Superglobal	                    Use	                                     Scope	                                     Example
+$GLOBALS	          Global variables ka access	                   Har scope	                             Access any variable globally
+$_SERVER	         Server aur execution environment info	           Har scope	                             Request method, script name, etc.
+$_REQUEST	          Form data (GET/POST)	                           Har scope	                             Input from user via GET/POST
+$_POST	               Form data sent via POST method	               Har scope	                              Password,form submissions
+$_GET	              Form data sent via GET method	                   Har scope	                              URL query parameters
+$_FILES	File            upload info	                                   Har scope	                              Name, type, size of uploaded files
+$_COOKIE	           Cookies sent by client	                       Har scope	                              User preferences
+$_SESSION	            Session variables	                           Har scope	                              Login status, user ID
+$_ENV	               Environment variables	                       Har scope	                              OS environment variables  
