@@ -1,0 +1,7 @@
+for loops:
+for loop ka use tab kiya jata hai jab hume loop ka iteration number pehle se pata ho.
+Ye loop initialization, condition, aur increment/decrement ke saath kaam karta hai.
+
+for(initialization; condition; increment/decrement){
+    // code to execute
+}
