@@ -1,0 +1,19 @@
+PHP loosely typed hai. Matlab variable ka type runtime pe decide hota hai.
+
+PHP Data Types:
+
+String
+
+Integer
+
+Float (Double)
+
+Boolean
+
+Array
+
+Object
+
+NULL
+
+Resource (special)
