@@ -58,4 +58,13 @@ foreach($words as $w){
 }
 echo $sentence;
 
+
+// Nested Array iterations
+$matrix = [[1,2],[3,4]];
+foreach($matrix as $row){
+    foreach($row as $val){
+        echo $val . " ";
+    }
+}
+
 ?>
