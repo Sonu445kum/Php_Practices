@@ -1,0 +1,71 @@
+An array in PHP is a data structure that allows you to store multiple values in a single variable.
+ Arrays can hold values of any type, including strings, numbers, or even other arrays.
+
+PHP supports three main types of arrays:
+
+1. Indexed Arrays
+
+Definition: Arrays with a numeric index, starting from 0 by default.
+
+Use: When you want to store an ordered list of items.
+
+<?php
+// Creating an indexed array
+$fruits = array("Apple", "Banana", "Mango");
+
+// Accessing elements
+echo $fruits[0]; // Output: Apple
+echo $fruits[2]; // Output: Mango
+
+// Adding a new element
+$fruits[] = "Orange";
+
+// Looping through the array
+for ($i = 0; $i < count($fruits); $i++) {
+    echo $fruits[$i] . " ";
+}
+?>
+
+2->Associative Arrays:
+<?php
+// Creating an associative array
+$ages = array(
+    "Sonu" => 25,
+    "Ravi" => 30,
+    "Amit" => 28
+);
+
+// Accessing elements
+echo $ages["Ravi"]; // Output: 30
+
+// Adding a new key-value pair
+$ages["Sita"] = 22;
+
+// Looping through the array
+foreach ($ages as $name => $age) {
+    echo "$name is $age years old. ";
+}
+?>
+
+3. Multidimensional Arrays
+
+Definition: Arrays that contain one or more arrays inside them.
+
+Use: When you need to store complex data like tables or matrices.
+
+<?php
+// Creating a multidimensional array
+$students = array(
+    array("Name" => "Sonu", "Age" => 25, "City" => "Delhi"),
+    array("Name" => "Ravi", "Age" => 30, "City" => "Mumbai"),
+    array("Name" => "Amit", "Age" => 28, "City" => "Bangalore")
+);
+
+// Accessing elements
+echo $students[1]["Name"]; // Output: Ravi
+
+// Looping through multidimensional array
+foreach ($students as $student) {
+    echo $student["Name"] . " from " . $student["City"] . " is " . $student["Age"] . " years old. ";
+}
+?>
