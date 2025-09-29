@@ -1,0 +1,9 @@
+Functions reusable code blocks hote hain.
+
+Key Points:
+
+User-defined aur Built-in dono hote hain.
+
+Parameters + Default values possible.
+
+Return values use hote hain.
