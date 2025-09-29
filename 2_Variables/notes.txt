@@ -1,0 +1,13 @@
+Variables ek storage container hai jo data hold karte hain. PHP me variables always $ se start hote hain.
+
+Key Points:
+
+$ se start hota hai ($name, $age).
+
+Case-sensitive hote hain ($Name ≠ $name).
+
+Assign karte waqt = operator use hota hai.
+
+Concatenation . operator se hota hai.
+
+Variables ka scope hota hai (local, global, static).
