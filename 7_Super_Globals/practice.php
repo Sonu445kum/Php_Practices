@@ -1,4 +1,12 @@
-<!-- $GLOBALS:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- $GLOBALS:
 Ye all global variables ko store karta hai.
 Har function ke andar access possible hota hai. -->
 <?php
@@ -13,3 +21,6 @@ sum(); // Output: 30
 ?>
 
 <!-- // Deep tip: $GLOBALS ek associative array hai jisme variable name as key aur value as value hota hai. -->
+
+</body>
+</html>
